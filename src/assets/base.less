@@ -1,0 +1,67 @@
+body {margin: 0;padding: 0;background: #F9F9F9;font-family: "PingFangSC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+div {box-sizing: border-box;}
+ul,li {list-style: none;margin: 0;padding: 0;box-sizing: border-box;}
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+textarea {
+  margin-bottom: 0;
+  outline: none;
+  font-family: "PingFangSC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input:focus { outline: none; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: rgba(0,0,0,0.2);
+  font-size: .8rem;
+}
+
+img {
+  object-fit: cover;
+}
+
+input,
+textarea {
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;/*清除ios默认圆角*/
+}
+.relative {position: relative;}
+.absolute {position: absolute;}
+
+// 调整antd-mobild部分样式
+.am-list.popup-list > .am-list-header,
+.area-picker .am-picker-popup-header {
+  background-color: #F1F1F1;
+}
+.am-list.popup-list > .am-list-body {
+  height: 225px;
+  overflow-y: auto;
+}
+.area-picker .am-picker-popup-header .am-picker-popup-header-left {
+  font-size: 14px;
+  color: #888;
+}
+.area-picker .am-picker-popup-header .am-picker-popup-header-right {
+  font-size: 14px;
+  color:rgba(30,172,95,1);
+}
+.area-picker .am-picker-popup-header .am-picker-popup-item {
+  padding: 15px 15px 9px;
+  height: auto;
+  line-height: 1.5;
+}
